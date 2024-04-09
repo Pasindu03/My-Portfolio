@@ -1,0 +1,243 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #1E1E1E;
+    text-align: center;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+#home a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#home a:hover {
+    background-color: #45a049;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #1E1E1E;
+    text-align: center;
+    color: #fff;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+/* Education Section Styles */
+#education {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+#education h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#education div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#education div img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#education div p {
+    font-size: 18px;
+}
+
+/* Experience Section Styles */
+#experience {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+#experience h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#experience div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#experience h3 {
+    text-align: center;
+    width: 100%;
+}
+
+#experience div img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#skills div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#skills img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* Gallery Section Styles */
+#gallery {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#gallery div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #1E1E1E;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+}
+
+#contact div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#contact div p {
+    margin: 0;
+}
+
+#contact div a {
+    margin-left: 10px;
+}
+
+#contact div a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
