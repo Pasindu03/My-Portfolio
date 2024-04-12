@@ -1,0 +1,158 @@
+.assignment{
+    position: relative;
+    top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topic-content4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#assignment .card {
+    width: 100%;
+    max-width: 380px;
+    min-width: 280px;
+    height: 400px;
+    background-color: #323131;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+#assignment .icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, rgba(57,52,78,0.7), rgba(15, 15, 15, 0.7));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    background-size: 200px;
+}
+
+#assignment .icon svg {
+    fill: white;
+}
+
+#assignment .card .card-title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#assignment .card-title .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+
+#assignment .list{
+    display: none;
+}
+
+#assignment .link{
+    display: none;
+}
+
+#assignment .title2{
+    display: none;
+}
+
+#assignment .card:hover {
+    height: 400px;
+}
+
+#assignment .card:hover .link{
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    color: darkslateblue;
+    top: 5%;
+}
+
+#assignment .card:hover .link:hover{
+    color: white;
+}
+
+#assignment .card:hover .card-title{
+    position: absolute;
+    top: 16%;
+}
+
+#assignment .card:hover .title2{
+    position: absolute;
+    display: block;
+    font-size: 0.7rem;
+    width: 85%;
+    top: 37%;
+    text-align: center;
+}
+
+#assignment .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+#assignment .card:hover .list{
+    display: block;
+    position: absolute;
+    top: 55%;
+}
+
+#assignment .card:hover .list > li >a{
+    color: darkslateblue;
+}
+
+#assignment .card:hover .list > li >a:hover{
+    color: white;
+}
+
+#assignment .card:hover .icon {
+    display: none;
+}
+
+#assignment .title::after{
+    background: #0F0F0F;
+    content: " - My Works ?  - ";
+}
+
+@media (max-width: 995px) {
+    #assignment{
+        position: relative;
+        top: -250px;
+    }
+}
