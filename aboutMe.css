@@ -10,7 +10,8 @@ section {
 
 
 .about .about-content,
-.services .serv-content
+.services .serv-content,
+.contact .contact-content
 {
     display: flex;
     flex-wrap: wrap;
@@ -197,6 +198,10 @@ section .title::after {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
 
 }
 
@@ -215,6 +220,14 @@ section .title::after {
     .skills .skills-content .left .text {
         font-size: 19px;
     }
+
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email {
+        margin: 0;
+    }
 }
 
 @media (max-width: 995px) {
@@ -226,5 +239,10 @@ section .title::after {
     .services {
         position: relative;
         top: 200px;
+    }
+
+    .contact {
+        position: relative;
+        top: -300px;
     }
 }
