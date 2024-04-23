@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.8s ease;
+    transition: all 2s ease;
     background-size: 200px;
 }
 
@@ -122,7 +122,7 @@
 }
 
 #assignment .card:hover .text {
-    transition: all 0.3s ease;
+    transition: all 2s ease;
     opacity: 1;
     max-height: 40px;
 }
@@ -147,7 +147,7 @@
 
 #assignment .title::after{
     background: #0F0F0F;
-    content: " - My Works ?  - ";
+    content: " - My Works - ";
 }
 
 @media (max-width: 995px) {
