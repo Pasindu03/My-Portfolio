@@ -44,7 +44,7 @@
 .record-display3 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/ride.png");
+    background-image: url("../img/ride.png");
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +52,7 @@
 .record-display1 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/PigeonService.png");
+    background-image: url("../img/PigeonService.png");
     background-size: cover;
     background-position: center;
 }
@@ -60,7 +60,7 @@
 .record-display2 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/Connect4.png");
+    background-image: url("../img/Connect4.png");
     background-size: cover;
     background-position: center;
 }
@@ -68,14 +68,14 @@
 .record-display4 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/Chat App.png");
+    background-image: url("../img/Chat App.png");
     background-size: cover;
     background-position: center;
 }
 .record-display5 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/bookworm.png");
+    background-image: url("../img/bookworm.png");
     background-size: cover;
     background-position: center;
 }
@@ -83,7 +83,7 @@
 .record-display6 {
     width: 100%;
     height: 100%;
-    background-image: url("assets/img/sceneBuilder-removebg-preview.png");
+    background-image: url("../img/sceneBuilder-removebg-preview.png");
     background-size: cover;
     background-position: center;
 }
