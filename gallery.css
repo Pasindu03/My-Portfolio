@@ -39,7 +39,7 @@
 
 #gallery .title::after{
     background: #0F0F0F;
-    content: " - My Liitle Photobooth  - ";
+    content: " - My Little Photobooth  - ";
 }
 
 @media (max-width: 995px) {
