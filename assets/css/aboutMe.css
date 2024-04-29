@@ -81,7 +81,7 @@ section .title::after {
 /* Linear Gradiant */
 .about .about-content .right .text span {
     /* color: #1e3551; */
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #bd00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -141,7 +141,7 @@ section .title::after {
 }
 
 .services .serv-content .card .box {
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .services .serv-content .card:hover .box {
@@ -151,7 +151,7 @@ section .title::after {
 .services .serv-content .card i {
     font-size: 50px;
     color: #888e8d;
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    background: linear-gradient(135deg, #041d3d, #fff, #bd00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: color 0.3s ease;
