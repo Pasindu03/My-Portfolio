@@ -1,3 +1,4 @@
+/* General Styles */
 .contact .title::after {
     content: "—Get in Touch—";
 }
@@ -114,18 +115,18 @@
     animation: pulsate 1s ease-in-out;
 }
 
-/*  Social  */
-.col-4 {
-    background: #d8d8d8;
+/* Social Links Styles */
+.social-menu {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .social-menu ul {
-    position: absolute;
-    left: 20%;
     padding: 0;
     margin: 0;
-    transform: translate(-50%, -50%);
     display: flex;
+    justify-content: center;
 }
 
 .social-menu ul li {
@@ -174,6 +175,7 @@
 .social-menu ul li:nth-child(3) a:hover {
     background-color: #e4405f;
 }
+
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #1da1f2;
 }
@@ -190,10 +192,11 @@
     color: #0F0F0F;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
     color: #ededed;
 }
 
+/* Footer Styles */
 footer {
     background: darkslateblue;
     padding: 6px 16px;
@@ -210,15 +213,20 @@ footer span a:hover {
     text-decoration: underline;
 }
 
+/* Responsive Styles */
 @media (max-width: 995px) {
 
-    .contact {
-        flex-direction: column;
+    .contact .contact-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
     }
 
     .social-menu ul {
-        left: 50%;
-        display: flex;
         justify-content: center;
     }
 }
+
