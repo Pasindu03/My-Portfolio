@@ -1,3 +1,4 @@
+/* General Styles */
 section {
     padding: 100px 0;
 }
@@ -8,11 +9,9 @@ section {
     margin: auto;
 }
 
-
 .about .about-content,
 .services .serv-content,
-.contact .contact-content
-{
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -80,7 +79,6 @@ section .title::after {
 
 /* Linear Gradiant */
 .about .about-content .right .text span {
-    /* color: #1e3551; */
     background: linear-gradient(135deg, #041d3d, #fff, #bd00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,7 +107,7 @@ section .title::after {
     animation: pulsate 1s ease-in-out;
 }
 
-/*  Service  */
+/* Service */
 .services,
 .projects {
     color: #ededed;
@@ -127,7 +125,7 @@ section .title::after {
 }
 
 .services .serv-content .card {
-    width: calc(33% - 20px);
+    width: calc(33.333% - 20px); /* Adjust margin */
     background: #222;
     text-align: center;
     border-radius: 10px;
@@ -167,55 +165,20 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
-@media (max-width: 1104px) {
-    .about .about-content .left img {
-        height: 350px;
-        width: 350px;
-    }
-    section .title::after {
-        bottom: -8px;
-        font-size: 16px;
-    }
-}
-
-
 @media (max-width: 947px) {
-    .max-width {
-        max-width: 930px;
-    }
-    .about .about-content .column {
-        width: 100%;
-    }
-    .about .about-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .right {
-        flex: 100%;
-    }
     .services .serv-content .card {
-        width: calc(50% - 10px);
+        width: calc(50% - 20px); /* Adjust margin */
         margin-bottom: 20px;
     }
-    .contact .contact-content .column {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
 }
 
 @media (max-width: 690px) {
-    .max-width {
-        padding: 0 23px;
-    }
     .services .serv-content .card {
         width: 100%;
     }
 }
 
 @media (max-width: 500px) {
-
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
