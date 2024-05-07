@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transition</title>
+  <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../../css/normalize_css.css">
+
+  <style>
+    section>div{
+      background-color: mediumpurple;
+      color: white;
+      width: 250px;
+      height: 60px;
+      margin: 10px 0;
+
+      position: relative;
+      transition-duration: 1s;
+      border-radius: 0 10px 10px 0;
+      margin-left: -192px;
+    }
+
+    section>div>p{
+      height: fit-content;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 20px;
+      margin: auto;
+    }
+
+    section>div>div{
+      height: fit-content;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 20px;
+      margin: auto;
+    }
+
+    section>div:hover{
+      margin-left: 0;
+    }
+  </style>
+</head>
+
+<body>
+<section>
+  <div>
+    <p> Menu One</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+  <div>
+    <p> Menu Two</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+  <div>
+    <p> Menu Three</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+  <div>
+    <p> Menu Four</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+  <div>
+    <p> Menu Five</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+  <div>
+    <p> Menu Six</p>
+    <div><i class="fa-regular fa-address-book"></i></div>
+  </div>
+</section>
+
+  <script src="../fontawesome/js/all.min.js"></script>
+</body>
+</html>

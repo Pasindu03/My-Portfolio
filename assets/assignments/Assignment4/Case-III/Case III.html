@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotation with Animation</title>
+
+  <style>
+    :root{
+      --width: 200px;
+      --height: 100px;
+    }
+
+    body{
+      overflow: hidden;
+    }
+
+    div{
+      width: var(--width);
+      height: var(--height);
+      background-color: dodgerblue;
+      border-radius: 10px;
+      animation: my-animation 6s infinite;
+    }
+
+    @keyframes my-animation {
+      0%{
+        margin-left: 0;
+        margin-top: 0;
+        transform: rotate(0deg);
+        background-color: lightgreen;
+      }
+      25%{
+        margin-left: calc(100vw - var(--width));
+        margin-top: 0;
+        transform: rotate(90deg);
+        background-color: yellow;
+      }
+      50%{
+        margin-left: calc(100vw - var(--width));
+        margin-top: calc(100vh - var(--height));
+        transform: rotate(180deg);
+        background-color: darkred;
+      }
+      75%{
+        margin-left: 0;
+        margin-top: calc(100vh - var(--height));
+        transform: rotate(270deg);
+        background-color: orangered;
+      }
+      100%{
+        margin-left: 0;
+        margin-top: 0;
+        transform: rotate(360deg);
+        background-color: indianred;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

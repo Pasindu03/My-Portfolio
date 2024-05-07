@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Circle Border Transition</title>
+  <link rel="stylesheet" href="../../../fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../../../css/normalize_css.css">
+
+  <style>
+    body{
+      background-color: #3199ff;
+    }
+
+    div::before{
+      content: "";
+      border: 10px solid white;
+      border-top-color: red;
+      border-radius: 100%;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+
+      transition-duration: 1s;
+    }
+
+    div:hover::before{
+      transform: rotate(360deg);
+    }
+
+    div{
+      position: fixed;
+      height: 300px;
+      aspect-ratio: 1/1;
+
+      background-color: gray;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      border-radius: 100%;
+      margin: auto;
+      transition-duration: 2s;
+    }
+
+    div>h1{
+      height: fit-content;
+      width: fit-content;
+
+      color: white;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div>
+    <h1>RWAD</h1>
+  </div>
+
+  <script src="../fontawesome/js/all.min.js"></script>
+</body>
+</html>
