@@ -1,0 +1,291 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment 3 part 2</title>
+  <link rel="stylesheet" href="../css/Assignment-1-css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../icon.png">
+
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+
+  <style>
+    #div-square-1{
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: red;
+    }
+
+    #div-square-2{
+      width: 50vw;
+      height: 50vh;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      background-color: orange;
+    }
+
+    #div-square-3{
+      width: 50vw;
+      height: 50vh;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      background-color: deeppink;
+    }
+
+    #div-square-4{
+      width: 50vw;
+      height: 50vh;
+      background-color: green;
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+
+    #middle-square{
+      width: 20vw;
+      aspect-ratio: 1/1;
+      /*            height: 20VH;*/
+      background-color: white;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #middle-circle{
+      width:15vw;
+      aspect-ratio: 1/1;
+      /*height: 20VH;*/
+      background-color: red;
+      border-radius: 100%;
+      top: 0;
+      left:0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #circle-1{
+      width:15vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+
+    #circle-2{
+      width:15vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+
+    #circle-3{
+      width:15vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+
+    #circle-4{
+      width:15vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+
+    #square-1{
+      width: 7vw;
+      aspect-ratio: 1/1;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #square-2{
+      width: 7vw;
+      aspect-ratio: 1/1;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #square-3{
+      width: 7vw;
+      aspect-ratio: 1/1;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #square-4{
+      width: 7vw;
+      aspect-ratio: 1/1;
+      background-color: red;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+    }
+
+    #out-circle-1{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      /* bottom: 0;*/
+      left: 0;
+      /*  right: 0;*/
+      margin: auto;
+      position: absolute;
+      transform: translate(-50%,-50%);
+    }
+
+    #out-circle-2{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      /*top: 0;*/
+      bottom: 0;
+      /*  left: 0;*/
+      right: 0;
+      margin: auto;
+      position: absolute;
+      transform: translate(-310%,50%);
+    }
+
+    #out-circle-3{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      /* top: 0;*/
+      bottom: 0;
+      /*left: 0;*/
+      right: 0;
+      margin: auto;
+      position: absolute;
+      transform: translate(50%,50%);
+    }
+
+    #out-circle-4{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      /*  bottom: 0;*/
+      /*   left: 0;*/
+      right: 0;
+      margin: auto;
+      position: absolute;
+      transform: translate(50%,-50%);
+    }
+
+    #out-circle-up{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      top: 0;
+      /* bottom: 0;*/
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+      transform: translate(0%,-50%);
+    }
+
+    #out-circle-down{
+      width:14vw;
+      aspect-ratio: 1/1;
+      background-color: white;
+      border-radius: 100%;
+      /*top: 0;*/
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+      transform: translate(0%,50%);
+    }
+  </style>
+</head>
+
+<body>
+<div id="div-square-1">     <div id="circle-1"></div>    <div id="square-1"></div>  <div id="out-circle-1"></div>   </div>
+<div id="div-square-2">     <div id="circle-2"></div>    <div id="square-2"></div>  <div id="out-circle-2"></div>   </div>
+<div id="div-square-3">     <div id="circle-3"></div>    <div id="square-3"></div>  <div id="out-circle-3"></div>   </div>
+<div id="div-square-4">     <div id="circle-4"></div>    <div id="square-4"></div>  <div id="out-circle-4"></div>   </div>
+
+<div id="middle-square"></div>
+<div id="middle-circle"></div>
+
+<div id="out-circle-up"></div>
+<div id="out-circle-down"></div>
+</body>
+
+</html>
