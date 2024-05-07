@@ -217,7 +217,7 @@ footer span a:hover {
 @media (max-width: 995px) {
 
     .contact .contact-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
@@ -225,8 +225,17 @@ footer span a:hover {
         width: 100%;
     }
 
+    .contact .contact-content .left {
+        order: 2; /* Change the order to 2 for mobile layout */
+    }
+
+    .contact .contact-content .right {
+        order: 1; /* Change the order to 1 for mobile layout */
+    }
+
     .social-menu ul {
         justify-content: center;
     }
 }
+
 
